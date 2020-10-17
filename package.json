@@ -1,0 +1,25 @@
+{
+  "name": "space",
+  "version": "0.1.0",
+  "homepage": "http://shubhangi1412.github.io/SpaceLaunch",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "jest"
+  },
+  "dependencies": {
+    "next": "9.5.5",
+    "prop-types": "^15.7.2",
+    "react": "16.14.0",
+    "react-dom": "16.14.0"
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "jest": "^26.5.3"
+  }
+}
