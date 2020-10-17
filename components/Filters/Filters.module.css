@@ -1,0 +1,21 @@
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 250px;
+    margin: 10px;
+    margin-top: 0PX;
+    padding: 0;
+    justify-self: center;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: stretch;
+    flex-shrink: 0;
+}
+.header {
+    margin: 2px 0px 0px 10px;
+    align-self: start;
+    font-size: x-large;
+    
+}
